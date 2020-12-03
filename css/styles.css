@@ -1,0 +1,40 @@
+.conteudo {
+  display: flex;
+  flex-direction: row;
+}
+
+.nomeDasCores,
+.containerInputRange,
+.containerInputText {
+  display: flex;
+  flex-direction: column;
+}
+.containerInputRange {
+  width: 220px;
+  height: 150px;
+  padding-left: 50px;
+}
+
+.containerInputText {
+  padding-left: 50px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+}

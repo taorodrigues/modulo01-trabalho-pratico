@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático 01</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="conteudo">
+      <div class="nomeDasCores">
+        <label class="red">RED:</label>
+        <label class="green">GREEN:</label>
+        <label class="blue">BLUE:</label>
+      </div>
+
+      <div class="containerInputRange">
+        <input
+          type="range"
+          name="redColor"
+          id="inputRedColor"
+          min="0"
+          max="255"
+          step="1"
+        />
+        <input
+          type="range"
+          name="greenColor"
+          id="inputGreenColor"
+          min="0"
+          max="255"
+        />
+        <input
+          type="range"
+          name="blueColor"
+          id="inputBlueColor"
+          min="0"
+          max="255"
+        />
+      </div>
+
+      <div class="containerInputText">
+        <input
+          disabled
+          class="valorDaCorRed"
+          type="text"
+          name=""
+          id="textRedColor"
+        />
+        <input
+          disabled
+          class="valorDaCorGreen"
+          type="text"
+          name=""
+          id="textGreenColor"
+        />
+        <input
+          disabled
+          class="valorDaCorBlue"
+          type="text"
+          name=""
+          id="textBlueColor"
+        />
+      </div>
+    </div>
+    <span class="square" id="mySquare"></span>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
